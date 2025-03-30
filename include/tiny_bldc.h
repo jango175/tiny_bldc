@@ -25,7 +25,7 @@
 
 #define BLDC_MAX_SPEED                (PWM_MAX_PULSEWIDTH_US - PWM_MIN_PULSEWIDTH_US)
 #define BLDC_MIN_SPEED                0
-#define BLDC_MIN_ROT_SPEED            (BLDC_MIN_SPEED + 50)
+#define BLDC_MIN_ROT_SPEED            (BLDC_MIN_SPEED + 100)
 
 // BLDC config struct
 typedef struct tiny_bldc_conf_t
